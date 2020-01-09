@@ -612,6 +612,7 @@ main{
 	width:12.5vw;
 	height:7.4vw;
 	animation: roadside 6s linear infinite;
+	z-index:5;
 }
 .roadside img{
 	width:100%;
