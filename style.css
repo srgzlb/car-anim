@@ -256,9 +256,17 @@ main{
 	bottom:-2px;
 	background:url(img/glade.svg) no-repeat 0 0;
 	background-size:100%;
+	-webkit-transform:translate(0, 0);
+	-ms-transform:translate(0, 0);
+	-o-transform:translate(0, 0);
+	transform:translate(0, 0);
 }
 .glade .bg-stretch-2{
 	animation: glade-after 15s linear infinite;
+	-webkit-transform:translate(99%, 0);
+	-ms-transform:translate(99%, 0);
+	-o-transform:translate(99%, 0);
+	transform:translate(99%, 0);
 }
 @keyframes glade {
 	0% {
