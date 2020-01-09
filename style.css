@@ -219,7 +219,7 @@ main{
 	height:80px;
 	left:0;
 	width:100%;
-	background:#71989b;
+	background:#7CA2A5;
 }
 @keyframes mountains {
 	0% {
@@ -254,8 +254,8 @@ main{
 .glade .bg-stretch{
 	animation: glade 15s linear infinite;
 	bottom:-2px;
-	background:url(img/glade.svg) no-repeat 0 0;
-	background-size:100%;
+	/*background:url(img/glade.svg) no-repeat 0 0;*/
+	/*background-size:100%;*/
 	-webkit-transform:translate(0, 0);
 	-ms-transform:translate(0, 0);
 	-o-transform:translate(0, 0);
@@ -481,11 +481,20 @@ main{
 	left:20%;
 	width:30vw;
 	z-index:1;
+	animation: car 1s linear infinite;
 }
 .car-body img{
 	margin-top:-23%;
 	width:100%;
 	vertical-align:bottom;
+}
+@keyframes car {
+	50%{
+		-webkit-transform:translate(0, -2px);
+		-ms-transform:translate(0, -2px);
+		-o-transform:translate(0, -2px);
+		transform:translate(0, -2px);
+	}
 }
 .vehicles{
 	display:-webkit-flex;
